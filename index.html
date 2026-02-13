@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sowmika - Full Stack Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
+
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="gradient-text">Sowmika</span>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="sowmika_resume.pdf" target="_blank" class="nav-link resume-btn">Resume</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+    <div class="hero-container">
+
+        <div class="hero-content fade-in"><br>
+
+            <h1 class="hero-title">
+                Hello, I'm <span class="gradient-text">Vemula Sowmika</span>
+            </h1>
+
+            <div class="typing-container">
+                <span id="typing"></span>
+                <span class="cursor"></span>
+            </div>
+
+            <!-- Animated Female Developer -->
+            <div class="hero-image">
+                <lottie-player
+                    src="https://assets4.lottiefiles.com/packages/lf20_3vbOcw.json"
+                    background="transparent"
+                    speed="1"
+                    style="width: 300px; height: 300px;"
+                    loop
+                    autoplay>
+                </lottie-player>
+            </div>
+
+            <div class="social-icons">
+                <a href="sowmika_resume.pdf" target="_blank" class="icon-btn">
+                    <i class="fas fa-file-pdf"></i>
+                </a>
+                <a href="https://github.com/SowmisHub" target="_blank" class="icon-btn">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/vemula-sowmika-7p143/" target="_blank" class="icon-btn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image scroll-reveal">
+                    <img src="sowmika_photo.jpeg" alt="Profile">
+                    <div class="image-glow"></div>
+                </div>
+                <div class="about-text scroll-reveal">
+                    <p>
+                        I am a passionate and motivated Full Stack Developer with a strong foundation in the MERN stack (MongoDB, Express.js, React, Node.js). I enjoy building responsive and user-friendly web applications that solve real-world problems. I have hands-on experience in developing projects using JavaScript, REST APIs, and database management along with knowledge of SQL and Python fundamentals. As a fresher, I am eager to learn, grow, and contribute to a dynamic team while continuously improving my technical and problem-solving skills.
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card scroll-reveal" data-skill="HTML">
+                    <div class="skill-icon">
+                        <i class="devicon-html5-plain colored"></i>
+                    </div>
+                    <p>HTML</p>
+                </div>
+                <div class="skill-card scroll-reveal" data-skill="CSS">
+                    <div class="skill-icon">
+                        <i class="devicon-css3-plain colored"></i>
+                    </div>
+                    <p>CSS</p>
+                </div>
+                <div class="skill-card scroll-reveal" data-skill="JavaScript">
+                    <div class="skill-icon">
+                        <i class="devicon-javascript-plain colored"></i>
+                    </div>
+                    <p>JavaScript</p>
+                </div>
+                <div class="skill-card scroll-reveal" data-skill="React">
+                    <div class="skill-icon">
+                        <i class="devicon-react-original colored"></i>
+                    </div>
+                    <p>React</p>
+                </div>
+                <div class="skill-card scroll-reveal" data-skill="Node.js">
+                    <div class="skill-icon">
+                        <i class="devicon-nodejs-plain colored"></i>
+                    </div>
+                    <p>Node.js</p>
+                </div>
+                <div class="skill-card scroll-reveal" data-skill="Express.js">
+                    <div class="skill-icon">
+                        <i class="devicon-express-original"></i>
+                    </div>
+                    <p>Express.js</p>
+                </div>
+                <div class="skill-card scroll-reveal" data-skill="MongoDB">
+                    <div class="skill-icon">
+                        <i class="devicon-mongodb-plain colored"></i>
+                    </div>
+                    <p>MongoDB</p>
+                </div>
+                <div class="skill-card scroll-reveal" data-skill="SQL">
+                    <div class="skill-icon">
+                        <i class="devicon-mysql-plain colored"></i>
+                    </div>
+                    <p>SQL</p>
+                </div>
+                <div class="skill-card scroll-reveal" data-skill="Python">
+                    <div class="skill-icon">
+                        <i class="devicon-python-plain colored"></i>
+                    </div>
+                    <p>Python</p>
+                </div>
+                <div class="skill-card scroll-reveal" data-skill="GitHub">
+                    <div class="skill-icon">
+                        <i class="devicon-github-original"></i>
+                    </div>
+                    <p>GitHub</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+
+            <!-- PROJECT 1 -->
+            <div class="project scroll-reveal">
+                <div class="project-row">
+                    <div class="project-image">
+                        <img src="project1_1.png" alt="Blog Homepage" class="project-img">
+                        <div class="image-glow"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>1. Blog Website</h3>
+                        <p>This is a full-stack blog web application built with a clean and responsive user interface that allows users to browse and read articles smoothly across devices. The platform ensures structured content display, easy navigation, and dynamic rendering for a seamless user experience.</p>
+                    </div>
+                </div>
+
+                <div class="project-row reverse">
+                    <div class="project-image">
+                        <img src="project1.png" alt="Admin Dashboard" class="project-img">
+                        <div class="image-glow"></div>
+                    </div>
+                    <div class="project-content">
+                       <p>The application includes a secure admin dashboard with authentication and protected routes. The admin can create, update, publish, or delete blogs, manage comments, and generate content using an integrated AI feature. The project is fully deployed using Vercel for reliable hosting and accessibility.</p>
+
+                        <div class="tech-stack">
+                            <span class="tech-badge">React</span>
+                            <span class="tech-badge">Node.js</span>
+                            <span class="tech-badge">Express</span>
+                            <span class="tech-badge">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-buttons">
+                    <a href="https://github.com/SowmisHub/BlogNestt" target="_blank" class="btn btn-secondary">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    <a href="https://blog-nestt.vercel.app/" target="_blank" class="btn btn-primary">
+                        <i class="fas fa-external-link-alt"></i> Live Demo
+                    </a>
+                </div>
+            </div>
+
+            <!-- PROJECT 2 -->
+            <div class="project scroll-reveal">
+                <div class="project-row">
+                    <div class="project-image">
+                        <img src="project2_1.png" alt="Time Tracker Dashboard" class="project-img">
+                        <div class="image-glow"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>2. Time Tracking Application</h3>
+                        <p> This is a time tracking web application designed to help users efficiently manage and monitor their daily activities. The platform features secure authentication using Firebase, including signup, login, and email-based password reset for safe account access. Users can add, update, and delete tasks while tracking the time spent on each activity through a clean and responsive dashboard interface.</p>
+                    </div>
+                </div>
+
+                <div class="project-row reverse">
+                    <div class="project-image">
+                        <img src="project2_2.png" alt="Analytics" class="project-img">
+                        <div class="image-glow"></div>
+                    </div>
+                    <div class="project-content">
+                        <p>The application also provides an analytics section that displays time distribution across different categories using visual charts. This helps users clearly understand how their time is spent. The project is designed with a clean and responsive interface and is deployed using GitHub for public access.</p>
+                        <div class="tech-stack">
+                            <span class="tech-badge">HTML</span>
+                            <span class="tech-badge">CSS</span>
+                            <span class="tech-badge">JavaScript</span>
+                            <span class="tech-badge">Firebase</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-buttons">
+                    <a href="https://github.com/SowmisHub/Time-Tracking-Web-Application" target="_blank" class="btn btn-secondary">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    <a href="https://sowmishub.github.io/Time-Tracking-Web-Application/" target="_blank" class="btn btn-primary">
+                        <i class="fas fa-external-link-alt"></i> Live Demo
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            
+            <div class="contact-content">
+                <div class="contact-card scroll-reveal">
+                    <a href="mailto:vemulasowmika123@gmail.com" class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>vemulasowmika123@gmail.com</span>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/vemula-sowmika-7p143/" target="_blank" class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+
+                </div>
+
+
+
+
+               
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2026 Sowmika. All rights reserved.</p>
+            <div class="footer-social">
+                <a href="https://github.com/SowmisHub" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/vemula-sowmika-7p143/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:vemulasowmika123@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
